@@ -5,6 +5,8 @@ This is a 'simple candle effect' using a 12-led neopixel ring.
 
 It uses 3 values of yellow and red and fades to new randomized group values at 10Hz rate. The program runs at 100Hz to update the leds. It really gives a nice effect of a candle moving.
 
+![Snapshot of the candle with a neopixel ring](/candle.jpg)
+
 
 ## Hardware
 
