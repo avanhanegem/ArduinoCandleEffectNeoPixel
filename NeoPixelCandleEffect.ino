@@ -39,18 +39,18 @@ void setup() {
   // set the original candle led levels; 3 groups of colors
   for (int i=0; i<NUM_LEDS; i++) {
     if (i%3==0) {
-      r[i] = 90;
+      r[i] = 70;
       g[i] = 0;
       b[i] = 0;
     }
     if (i%3==1) {
-      r[i] = 128;
-      g[i] = 128;
+      r[i] = 60;
+      g[i] = 30;
       b[i] = 0;
     }
     if (i%3==2) {
-      r[i] = 160;
-      g[i] = 160;
+      r[i] = 100;
+      g[i] = 70;
       b[i] = 0;
     }
   }        
