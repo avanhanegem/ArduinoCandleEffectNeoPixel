@@ -10,8 +10,7 @@ It uses 3 values of yellow and red and fades to new randomized group values at 1
 
 ## Hardware
 
-This is the neopixel used: https://www.adafruit.com/product/1643
-You can use any Arduino, having 5V to power your Neopixel ring and provide a 
+This is the [neopixel](https://www.adafruit.com/product/1643) used. You can use any Arduino, having 5V to power your Neopixel ring and provide a 
 
 In case you'll be using a LI-ion/PO powered solution, make sure to connect your neopixel to Vbat, as there probably isn't any 5V available from your battery.
 
