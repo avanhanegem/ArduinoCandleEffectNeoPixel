@@ -77,7 +77,7 @@ void loop() {
     count = 0;
 
     // set new levels based on a factor, and this in those 3 'groups' of leds
-    for (int j=0; j<3; j++) {
+    for (int j=0; j<NUM_LEDS/4; j++) {
       float z = 10.0/random(4, 11);   // min is inclusive, max is exclusive (giving range from 0.4 to 1.0)
       for (int i=0; i<4; i++) {
         int idx = j*4+i;
